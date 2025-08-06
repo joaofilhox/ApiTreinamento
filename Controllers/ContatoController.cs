@@ -35,12 +35,9 @@ public class ContatoController : ControllerBase
 
     [HttpPut("{id}")]
     public IActionResult Atualizar(int id, Contato contato)
-    {
-        if (id != contato.Id)
-        {
-            return BadRequest("ID do contato não corresponde.");
-        }
+    { 
         var existingContato = _context.Contatos.Find(id);
+
         if (existingContato == null)
         {
             return NotFound();
@@ -53,5 +50,21 @@ public class ContatoController : ControllerBase
         _context.SaveChanges();
 
         return Ok(existingContato);
+    }
+
+    [HttpDelete("{id}")]
+    public IActionResult Deletar(int id)
+    {
+        var existingContato = _context.Contatos.Find(id);
+
+        if (existingContato == null)
+        {
+            return NotFound();
+        }
+
+        _context.Contatos.Remove(existingContato);
+        _context.SaveChanges();
+
+        return NoContent();
     }
 }

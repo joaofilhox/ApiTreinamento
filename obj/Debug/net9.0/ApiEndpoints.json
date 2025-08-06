@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "ModuloApi.Controllers.ContatoController",
-    "Method": "Create",
+    "Method": "Criar",
     "RelativePath": "Contato",
     "HttpMethod": "POST",
     "IsController": true,
@@ -20,6 +20,43 @@
     "Method": "ObterPorId",
     "RelativePath": "Contato/{id}",
     "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ModuloApi.Controllers.ContatoController",
+    "Method": "Atualizar",
+    "RelativePath": "Contato/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "contato",
+        "Type": "ModuloApi.Entities.Contato",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ModuloApi.Controllers.ContatoController",
+    "Method": "Deletar",
+    "RelativePath": "Contato/{id}",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
