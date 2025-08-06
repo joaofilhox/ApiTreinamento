@@ -16,6 +16,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ModuloApi.Controllers.ContatoController",
+    "Method": "ObterPorId",
+    "RelativePath": "Contato/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ModuloApi.Controllers.UsuarioController",
     "Method": "Aoresentar",
     "RelativePath": "Usuario/Apresentar/{nome}",

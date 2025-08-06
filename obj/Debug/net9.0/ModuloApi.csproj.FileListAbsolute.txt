@@ -164,3 +164,4 @@ C:\Users\filho\Desktop\dotnet\CriandoApiC#\ModuloApi1\ModuloApi\ModuloApi\bin\De
 C:\Users\filho\Desktop\dotnet\CriandoApiC#\ModuloApi1\ModuloApi\ModuloApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\filho\Desktop\dotnet\CriandoApiC#\ModuloApi1\ModuloApi\ModuloApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\filho\Desktop\dotnet\CriandoApiC#\ModuloApi1\ModuloApi\ModuloApi\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\filho\Desktop\dotnet\CriandoApiC#\ModuloApi1\ModuloApi\ModuloApi\obj\Debug\net9.0\ModuloApi.sourcelink.json
