@@ -120,6 +120,27 @@
         }
       }
     },
+    "/Contato/ListarPorNome": {
+      "get": {
+        "tags": [
+          "Contato"
+        ],
+        "parameters": [
+          {
+            "name": "nome",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/Usuario/ObterDataHoraAtual": {
       "get": {
         "tags": [

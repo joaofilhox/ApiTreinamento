@@ -69,6 +69,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ModuloApi.Controllers.ContatoController",
+    "Method": "ListarPorNome",
+    "RelativePath": "Contato/ListarPorNome",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nome",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ModuloApi.Controllers.UsuarioController",
     "Method": "Aoresentar",
     "RelativePath": "Usuario/Apresentar/{nome}",

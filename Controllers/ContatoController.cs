@@ -67,4 +67,14 @@ public class ContatoController : ControllerBase
 
         return NoContent();
     }
+
+    [HttpGet("ListarPorNome")]
+    public IActionResult ListarPorNome(string nome)
+    {
+        var contatos = _context.Contatos
+            .Where(c => c.Nome.Contains(nome))
+            .ToList();
+    
+            return Ok(contatos);
+    }
 }
