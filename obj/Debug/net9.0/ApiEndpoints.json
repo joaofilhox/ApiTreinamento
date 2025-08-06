@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "ModuloApi.Controllers.ContatoController",
+    "Method": "Create",
+    "RelativePath": "Contato",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contato",
+        "Type": "ModuloApi.Entities.Contato",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ModuloApi.Controllers.UsuarioController",
+    "Method": "Aoresentar",
+    "RelativePath": "Usuario/Apresentar/{nome}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nome",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ModuloApi.Controllers.UsuarioController",
+    "Method": "ObterDataHoraAtual",
+    "RelativePath": "Usuario/ObterDataHoraAtual",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
